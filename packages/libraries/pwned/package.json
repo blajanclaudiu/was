@@ -1,0 +1,41 @@
+{
+  "name": "@zxcvbn-ts/matcher-pwned",
+  "version": "4.0.0-beta.2",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "description": "HaveIBeenPwned Matcher for zxcvbn-ts",
+  "license": "MIT",
+  "homepage": "https://github.com/zxcvbn-ts/zxcvbn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zxcvbn-ts/zxcvbn.git"
+  },
+  "author": "zxcvbn-ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "browser": {
+    "crypto": false
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@zxcvbn-ts/core": "^4.0.0-beta.2"
+  },
+  "keywords": [
+    "pwned",
+    "password",
+    "passphrase",
+    "security",
+    "quality",
+    "estimation",
+    "pattern",
+    "cracking",
+    "scoring",
+    "haveibeenpwned",
+    "zxcvbn-ts"
+  ]
+}

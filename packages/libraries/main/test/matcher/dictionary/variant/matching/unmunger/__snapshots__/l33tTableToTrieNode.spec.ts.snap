@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`l33t table to trie node should convert correctly 1`] = `
+TrieNode {
+  "children": Map {
+    "@" => TrieNode {
+      "children": Map {},
+      "parents": [
+        "@",
+      ],
+      "subs": [
+        "a",
+      ],
+    },
+    "4" => TrieNode {
+      "children": Map {},
+      "parents": [
+        "4",
+      ],
+      "subs": [
+        "a",
+      ],
+    },
+    "v" => TrieNode {
+      "children": Map {
+        "v" => TrieNode {
+          "children": Map {},
+          "parents": [
+            "v",
+            "v",
+          ],
+          "subs": [
+            "w",
+          ],
+        },
+      },
+      "parents": [
+        "v",
+      ],
+      "subs": [
+        "f",
+        "u",
+      ],
+    },
+    "^" => TrieNode {
+      "children": Map {
+        "^" => TrieNode {
+          "children": Map {},
+          "parents": [
+            "^",
+            "^",
+          ],
+          "subs": [
+            "m",
+          ],
+        },
+      },
+      "parents": [
+        "^",
+      ],
+      "subs": undefined,
+    },
+    "n" => TrieNode {
+      "children": Map {
+        "n" => TrieNode {
+          "children": Map {},
+          "parents": [
+            "n",
+            "n",
+          ],
+          "subs": [
+            "m",
+          ],
+        },
+      },
+      "parents": [
+        "n",
+      ],
+      "subs": undefined,
+    },
+    "2" => TrieNode {
+      "children": Map {
+        "n" => TrieNode {
+          "children": Map {},
+          "parents": [
+            "2",
+            "n",
+          ],
+          "subs": [
+            "m",
+          ],
+        },
+      },
+      "parents": [
+        "2",
+      ],
+      "subs": undefined,
+    },
+    "/" => TrieNode {
+      "children": Map {
+        "\\" => TrieNode {
+          "children": Map {
+            "\\" => TrieNode {
+              "children": Map {
+                "/" => TrieNode {
+                  "children": Map {
+                    "\\" => TrieNode {
+                      "children": Map {
+                        "\\" => TrieNode {
+                          "children": Map {},
+                          "parents": [
+                            "/",
+                            "\\",
+                            "\\",
+                            "/",
+                            "\\",
+                            "\\",
+                          ],
+                          "subs": [
+                            "m",
+                          ],
+                        },
+                      },
+                      "parents": [
+                        "/",
+                        "\\",
+                        "\\",
+                        "/",
+                        "\\",
+                      ],
+                      "subs": undefined,
+                    },
+                  },
+                  "parents": [
+                    "/",
+                    "\\",
+                    "\\",
+                    "/",
+                  ],
+                  "subs": undefined,
+                },
+              },
+              "parents": [
+                "/",
+                "\\",
+                "\\",
+              ],
+              "subs": undefined,
+            },
+          },
+          "parents": [
+            "/",
+            "\\",
+          ],
+          "subs": undefined,
+        },
+      },
+      "parents": [
+        "/",
+      ],
+      "subs": undefined,
+    },
+    "|" => TrieNode {
+      "children": Map {
+        "_" => TrieNode {
+          "children": Map {
+            "|" => TrieNode {
+              "children": Map {},
+              "parents": [
+                "|",
+                "_",
+                "|",
+              ],
+              "subs": [
+                "u",
+              ],
+            },
+          },
+          "parents": [
+            "|",
+            "_",
+          ],
+          "subs": undefined,
+        },
+      },
+      "parents": [
+        "|",
+      ],
+      "subs": undefined,
+    },
+  },
+  "parents": [],
+  "subs": undefined,
+}
+`;
